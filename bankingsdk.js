@@ -176,7 +176,7 @@ if (connectorId == 2) {
 
         if (getBalancesResponseBody.userContext != null) {
             // not null means has changed, so you should save it for later reuse
-            userContext = getBalancesResponseBody.getUserContext();
+            userContext = getBalancesResponseBody.userContext;
         }
     }
 
